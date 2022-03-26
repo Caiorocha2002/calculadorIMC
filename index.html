@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <title>Descubra seu peso ideal!</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div class="div__style">
+
+            <h1 class="yourHeight">
+                 Coloque sua altura:
+            </h1>
+
+              <input  id="height" type="number" class="height__style">
+
+              <h1 class="yourWeigth">
+                   Coloque seu peso:
+                </h1>
+
+                 <input id="weight" type="number" class="weigth__style">
+
+               <h1 onclick="result()" class="buttom__style">
+                   Descubra seu IMC!
+               </h1>
+                <h2 id="result" class="style__result"> </h2>
+
+                <script  src="index.js"></script>
+         </div> 
+
+         <div class=" text__style">
+             <h2>
+                Uma vez realizado o cálculo do IMC, podemos classificar<br>
+                 os dados de acordo com os índices preestabelecidos pela OMS:<br>
+
+                Menor que 18,5 = abaixo do peso.<br>
+                Entre 18,5 e 24,9 = peso normal.<br>
+                Entre 25 e 29,9 = sobrepeso.<br>
+                Entre 30 e 34,99 = obesidade grau I.<br>
+                Entre 35 e 39,99 = obesidade grau II (severa).<br>
+                Acima de 40 = obesidade grau III (mórbida).
+             </h2>
+         </div>
+    </main>
+</body>
+</html>

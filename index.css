@@ -1,0 +1,52 @@
+body{
+    background-image: url("https://macmagazine.com.br/wp-content/uploads/2022/01/06-fita-metrica.jpg");
+}
+.div__style{
+    text-align: center;
+}
+.buttom__style{
+    order: blue solid;
+    font-size: 21px;
+    display: inline-block;
+    position: absolute;
+    top: 215px;
+    left: 28em;
+    
+    cursor: pointer;
+
+    padding: 4px 8px;
+    border-radius: 10px;
+    background: blue;
+    color: #fff;
+}
+.buttom__style:hover{
+    padding:5px 9px ;
+
+
+}
+ .style__result{ 
+    position: absolute;
+    left: 14em;
+    top: 11em;
+
+    text-shadow: #fff 5px 3px 15px;
+   
+} 
+ .healthyImc{ 
+    position: absolute;
+    left: 26em;
+    top: 12em;
+   
+} 
+.text__style{
+    position: absolute;
+    top:22em ;
+    left:2em ;
+    border: #fff solid;
+
+    box-shadow: #000 5px 3px 10px;
+
+   border-radius: 10px;
+   background-color: #fff;
+   padding: 0px 29px;
+}
