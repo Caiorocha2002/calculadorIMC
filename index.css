@@ -50,3 +50,11 @@ body{
    background-color: #fff;
    padding: 0px 29px;
 }
+@media screen and (max-width:896px){
+    .buttom__style{
+        left:6em ;
+    }
+    .text__style{
+        left: 0em;
+    }
+}
