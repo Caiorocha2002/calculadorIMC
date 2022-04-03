@@ -56,5 +56,10 @@ body{
     }
     .text__style{
         left: 0em;
+        top: 26em;
     }
+     .style__result{
+        left: 0em;
+        top: 11em;
+     }
 }
